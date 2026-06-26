@@ -1,0 +1,41 @@
+# NAME: ChinaMediaPlus
+# DESC: CN media / short-video routing rules for Shadowrocket-compatible clients
+
+# Upstream: blackmatrix7 ChinaMedia
+RULE-SET,https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Shadowrocket/ChinaMedia/ChinaMedia.list
+
+# Kuaishou / 快手
+DOMAIN-SUFFIX,kuaishou.com
+DOMAIN-SUFFIX,kuaishouzt.com
+DOMAIN-SUFFIX,kwai.com
+DOMAIN-SUFFIX,kwai.net
+DOMAIN-SUFFIX,kwaicdn.com
+DOMAIN-SUFFIX,kwaizt.com
+DOMAIN-SUFFIX,kspkg.com
+DOMAIN-SUFFIX,ksapisrv.com
+DOMAIN-SUFFIX,gifshow.com
+DOMAIN-SUFFIX,yximgs.com
+
+# Douyin / 抖音 / 西瓜 / 头条
+DOMAIN-SUFFIX,douyin.com
+DOMAIN-SUFFIX,douyincdn.com
+DOMAIN-SUFFIX,douyinpic.com
+DOMAIN-SUFFIX,douyinstatic.com
+DOMAIN-SUFFIX,amemv.com
+DOMAIN-SUFFIX,snssdk.com
+DOMAIN-SUFFIX,ixigua.com
+DOMAIN-SUFFIX,toutiao.com
+DOMAIN-SUFFIX,byteimg.com
+DOMAIN-SUFFIX,bytedance.com
+DOMAIN-SUFFIX,bytedance.net
+
+# Xiaohongshu / 小红书
+DOMAIN-SUFFIX,xiaohongshu.com
+DOMAIN-SUFFIX,xhscdn.com
+DOMAIN-SUFFIX,xhscdn.net
+DOMAIN-SUFFIX,redcdn.cn
+DOMAIN-SUFFIX,redcdn.net
+
+# ===== 其他全部直连 =====
+
+FINAL,DIRECT
